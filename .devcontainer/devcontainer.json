@@ -1,0 +1,20 @@
+// Define a devcontainer structure with image reference universal:2 
+// For more information on dev containers, visit https://aka.ms/devcontainers
+{
+    "name": "Jupyter Image Analysis",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+    // Add Jupyter to the image
+    "features": {
+        "python": {
+            "jupyter": true
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }  
+    }
+}
