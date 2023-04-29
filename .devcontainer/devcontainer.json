@@ -4,6 +4,9 @@
     "name": "Jupyter Image Analysis",
     "image": "mcr.microsoft.com/devcontainers/universal:2",
 
+    // onCreateCommand pip install astropy
+    "onCreateCommand": "pip3 install astropy",
+
     // Add Jupyter to the image
     "features": {
         "python": {
