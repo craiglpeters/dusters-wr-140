@@ -4,6 +4,11 @@
     "name": "Jupyter Image Analysis",
     "image": "mcr.microsoft.com/devcontainers/universal:2",
 
+    // require at least a 4 core machine
+    "hostRequirements": {
+        "cpus": 4
+    },
+
     // onCreateCommand pip install astropy
     "onCreateCommand": "pip3 install astropy",
 
