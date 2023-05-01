@@ -24,6 +24,9 @@
                 "ms-python.python",
                 "ms-toolsai.jupyter"
             ]
-        }  
+        },
+        "codespaces": {
+            "openFiles": ["WR140_MIRI_Image.ipynb"] 
+        }
     }
 }
