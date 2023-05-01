@@ -1,6 +1,6 @@
 ## Image generation for WR-140
 
-Credit: WR-DustERS, ERS 1349, PI - R. Lau
+Credit for the data and notebook: WR-DustERS, [ERS 1349](https://www.stsci.edu/jwst/science-execution/approved-programs/dd-ers/program-1349), PI - R. Lau 
 
 This repository contains a Jupyter notebook that converts input from the JWST MIRI instrument and uses astropy.visualization to render an image of the WR-140 binary showing generated dust rings. This repository is for example purposes only, and may not have everything you'd need to work with the data in the real world. For more details about the research see:
 
