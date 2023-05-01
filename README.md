@@ -4,8 +4,8 @@ Credit for the data and notebook: WR-DustERS, [ERS 1349](https://www.stsci.edu/j
 
 This repository contains a Jupyter notebook that converts input from the JWST MIRI instrument and uses astropy.visualization to render an image of the WR-140 binary showing generated dust rings. This repository is for example purposes only, and may not have everything you'd need to work with the data in the real world. For more details about the research see:
 
-DustERS team site https://www.ir.isas.jaxa.jp/~ryanlau/WRDustERS/index.html
-Nature publication https://www.nature.com/natastron/volumes/6/issues/11
+ - DustERS team site https://www.ir.isas.jaxa.jp/~ryanlau/WRDustERS/index.html
+ - Nature publication https://www.nature.com/natastron/volumes/6/issues/11
 
 ## Working with the Jupyter Notebook
 
