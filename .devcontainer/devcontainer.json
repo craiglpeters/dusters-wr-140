@@ -10,7 +10,7 @@
     },
 
     // onCreateCommand pip install astropy
-    "onCreateCommand": "python3 -m pip install --user astropy reproject matplotlib",
+    "onCreateCommand": "python3 -m pip install --user ipykernel astropy reproject matplotlib",
 
     // Add Jupyter to the image
     "features": {
