@@ -25,13 +25,25 @@ The following steps illustrate using the notebook in the [VS Code for the Web](h
 
 1. Start a Codespace by clicking the "Open in GitHub Codespaces" badge, or using the Code dropdown
 2. Once you are in the codespace, if you are using the default VS Code client, simply open the WR140_MIRI_Image.ipynb notebook from the file explorer, and VS Code will load the notebook. 
-3. When you click Run All
+3. Then click Run All in the top bar of the notebook document editor
 
-![Run All](https://github.com/craiglpeters/dusters-wr-140/blob/main/assets/vscode-jupyter-run-all.png)
+![Run All](/assets/vscode-jupyter-run-all.png)
 
-4. The Jupyter extension will prompt you for which Jupyter envionrment to use
+4. The Jupyter extension will prompt you for which Jupyter envionrment to use. First select a Python Kernel
 
+![Select Python Kernel](/assets/vscode-jupyter-select-kernel.png)
 
+Then select the recommended Python Environment
+
+![Selct Recommended Python Environment](/assets/vscode-jupyter-select-python.png)
+
+> Note: this Jupyter Python Kernel was configured automatically in Codespaces to include all the packages needed for the notebook in the `.devcontainer/devcontainer.json` configuration so that you don't need to install anything.
+
+5. Scroll down the notebook to see the processing of each cell. (You can igore the warnings from the astropy.fits processing)
+
+6. Observe the output of the final cell with the `plt.show()` output to see the image of the dust rings spun out by the binary star system observed by the JWST MIRI instrument
+
+## Find the Community and Learn More
 
 You can then explore more about [GitHub Codespaces in the documentation](https://docs.github.com/en/codespaces), and find others in the [Codespaces Community Discussions](https://github.com/orgs/community/discussions/categories/codespaces?discussions_q=is%3Aopen+sync+category%3ACodespaces). This repository is configured with a dev container to install all the tools and settings you need in the cloud so you don't have to worry about them. For more information about how this repository is configured to run Jupyter automatically, and how you can do this for your own projects, see the [Codespaces: Introduction to dev containers](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers) documentation.
 
@@ -45,7 +57,7 @@ There are many ways you can use JupyterLab in Codespaces:
 6. Use the `gh cs jupyter` cli 
 
 
-Documentation
+### Documentation and References
 
 https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
 https://code.visualstudio.com/docs/datascience/jupyter-notebooks
