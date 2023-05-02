@@ -1,0 +1,4 @@
+ipykernel 
+astropy 
+reproject 
+matplotlib
