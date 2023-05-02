@@ -1,3 +1,5 @@
+[![Codespaces Prebuilds](https://github.com/craiglpeters/dusters-wr-140/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/craiglpeters/dusters-wr-140/actions/workflows/codespaces/create_codespaces_prebuilds)
+
 ## Using JupyterLab in GitHub Codespaces
 
 The [Jupyter Project](https://jupyter.org/) creates powerful open source tools for interactive computing. Jupyter tools power many of the most important discoveries and learning experiences in computing.
@@ -65,3 +67,6 @@ There are many other ways you can use JupyterLab in Codespaces:
 - [VS Code Marketplace: Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 - [VS Code: Jupyter Notebooks](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 - [Dev Containers Specification](https://containers.dev)
+  - Default image which contains JupyterLab https://github.com/devcontainers/images/tree/main/src/universal
+- This repository is configured to start quickly by using Codespaces Prebuilds. A prebuild is used to install the python packages required for the notebook ahead of time, so that when you start a codespace you don't have to wait for the package installation to complete. To learn more see [About GitHub Codespaces Prebuilds](https://docs.github.com/en/codespaces/prebuilding-your-codespaces/about-github-codespaces-prebuilds).
+- GitHub CLI https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli#open-a-codespace-in-jupyterlab

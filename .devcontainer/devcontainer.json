@@ -1,5 +1,6 @@
 // Define a devcontainer structure with image reference universal:2 
 // For more information on dev containers, visit https://aka.ms/devcontainers
+// Note that the default image has JupyterLab preinstalled https://github.com/devcontainers/images/tree/main/src/universal
 {
     "name": "Jupyter Image Analysis",
     "image": "mcr.microsoft.com/devcontainers/universal:2",
@@ -12,12 +13,6 @@
     // onCreateCommand pip install the required packages for the IPython kernel from requirements.txt
     "onCreateCommand": "python3 -m pip install --user -r requirements.txt",
 
-    // Add Jupyter to the image
-    "features": {
-        "python": {
-            "jupyter": true
-        }
-    },
     "customizations": {
         "vscode": {
             "extensions": [
