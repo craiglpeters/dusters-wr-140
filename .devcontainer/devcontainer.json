@@ -9,8 +9,8 @@
         "cpus": 4
     },
 
-    // onCreateCommand pip install astropy
-    "onCreateCommand": "python3 -m pip install --user ipykernel astropy reproject matplotlib",
+    // onCreateCommand pip install the required packages for the IPython kernel from requirements.txt
+    "onCreateCommand": "python3 -m pip install --user -r requirements.txt",
 
     // Add Jupyter to the image
     "features": {
