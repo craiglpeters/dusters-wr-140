@@ -1,0 +1,7 @@
+👋 Welcome to the Jupyter example for GitHub Codespaces using the default container image
+🛠️ Your environment is fully setup with all required software installed.
+   - It includes runtimes and tools for Python, Jupyter, Node.js, Docker, and more. See the full list here: https://aka.ms/ghcs-default-image
+   - Want to use a custom image instead? Learn more here: https://aka.ms/configure-codespace
+
+The example data and notebook logic are provided by WR-DustERS, ERS 1349, PI - R. Lau, personal communication, April 2023
+https://www.stsci.edu/jwst/science-execution/approved-programs/dd-ers/program-1349
