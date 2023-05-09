@@ -12,7 +12,7 @@
 
     // onCreateCommand pip install the required packages for the IPython kernel from requirements.txt
     "onCreateCommand": "python3 -m pip install --user -r .devcontainer/requirements.txt",
-    "updateContentCommand": "cp welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
+    "updateContentCommand": "cp .devcontainer/welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
     "customizations": {
         "vscode": {
             "extensions": [
