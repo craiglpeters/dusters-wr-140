@@ -18,47 +18,53 @@ This repository contains a Jupyter notebook that converts processed data from th
 
 ## Working with the Jupyter Notebook in Codespaces
 
-If you are reading these words from the github.com hosted site, simply click on the ["Open in GitHub Codespaces"](https://codespaces.new/craiglpeters/dusters-wr-140?quickstart=1) badge at the top of this page and you'll quickly be up and running in a codespace. You won't have to install anything on your computer to run the notebook! (If you are already in a codespace, you don't need to click the button again - nothing bad will happen, but, you know :stuck_out_tongue_winking_eye:, [Inception](https://en.wikipedia.org/wiki/Inception).)
+The steps below illustrate using JupyterLab as the prefered IDE for Codespaces. There are many other ways to use Jupyter, and [some are detailed below](#other-ways-to-use-jupyter-in-codespaces).
+
+1. Go to your GitHub settings, and select Codespaces
+
+![GitHub Settings Menu](assets/settings-menu.png)
+
+![Find the Codespaces Settings](assets/finding-codespaces-settings.png)
+
+Then return to this page at https://github.com/craiglpeters/dusters-wr-140
+
+2. Set JupyterLab as your preferred IDE
+
+![JupyterLab Preferred IDE](assets/codespaces-editor-preference.png)
+
+3. Then CMD + click on the ["Open in GitHub Codespaces"](https://codespaces.new/craiglpeters/dusters-wr-140?quickstart=1) badge at the top of this page to open the start in a new tab so you can keep going through these steps. 
+
+![Start Codespaces with Badge](assets/open-in-github-codespaces-badge.png)
+
+You won't have to install anything on your computer to run the notebook! (If you are already in a codespace, you don't need to click the button again - nothing bad will happen, but, you know :stuck_out_tongue_winking_eye:, [Inception](https://en.wikipedia.org/wiki/Inception).)
 
 > Note: GitHub provides you 120 core-hours of Codespaces for free each month. The Jupyter kernel requires some resources, so it is recommended to use at least a 4 core Codespaces machine for this repository, which means you'll get 30 hours free a month. See [About Billing for GitHub Codespaces](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) for more details.
 
-The steps below illustrate using Jupyter Lab as a server running in Codespaces, and connecting via the browser. There are many other ways to use Jupyter, and [some are listed below](#other-ways-to-use-jupyter-in-codespaces).
+4. If you already have a codespace running with the current repository you will be asked if you want to connect to it, or start a new one
 
-1. Run
-```bash
-jupyter lab
-``` 
-in the terminal
+![Choose resume or start a new codespace](assets/resume-codespace.png)
 
-![Run Jupyter Lab in the terminal](/assets/terminal-juptyter-lab.png)
+5. Codespaces may show you a brief "setting up" screen
 
-2. Find the URL for the Jupyter server at the end of the terminal output
+![Setting up your Codespaces](assets/setting-up-your-codespace.png)
 
-![Jupyter Server URL in the Terminal](/assets/terminal-jupyter-lab-url.png)
+6. Next you'll land on the JupyterLab launcher page
 
-3. Open the URL in another browser window/tab - on Mac use the cmd+click
+![JupyterLab Launcher page](assets/jupyter-lab-launcher.png)
 
-![Click on the URL to open another tab](/assets/terminal-jupyter-lab-url-click.png)
+7. Select the WR140_MIRI_Image.ipynb notebook by double-clicking it
 
-4. Your JupyterLab session is running!
+![Open the WR140_MIRI_Image.ipynb notebook](assets/jupyter-open-notebook.png)
 
-![JupyterLab in the browser](/assets/jupyter-lab.png)
+> Note: Codespaces has started and connected you automatically to the correct IPython kernel
 
-5. Open the WR140_MIRI_Image.ipynb notebook from the file explorer
+8. Select "Run All Cells" from the Run menu
 
-![Open the notebook](/assets/jupyter-notebook-pre-run.png)
+![JupyterLab Run menu - Run All Cells](assets/jupyter-run-all-cells.png)
 
-Note that JupyterLab deteced the kernel running automatically
+9. Scroll down and look at the gorgeous image of the spiraling dust being emitted from the rotating binary star system observed by the JWST MIRI instrument
 
-6. Select 'Run -> Run All Cells` from the JupyterLab menu bar
-
-![Select Run All Cells](/assets/jupyter-run-all.png)
-
-Note that you do not need to worry about installing the required Python packages - those are taken care of for you by Codespaces thanks to the configuration in `/.devcontainer/devcontainer.json`.
-
-7. Scroll down to observe the output of the final cell with the `plt.show()` output to see the image of the spiral of dust rings spun out by the binary star system observed by the JWST MIRI instrument
-
-![Spirals of dust showin in an image from the JWST](/assets/jupyter-plot.png)
+![View the image of WR140 from the JWST MIRI instrument](assets/jupyter-plot.png)
 
 ## Find the Community and Learn More
 
@@ -68,8 +74,8 @@ This repository is configured with a Dev Container to install all the tools and 
 
 ### Other ways to use Jupyter in Codespaces
 
-There are many other ways you can use JupyterLab in Codespaces:
-1. [Open the WR140_MIRI_Image.ipynb document by clicking on it in the file Explorer in VS Code for the Web.](/jupyter-vscode-extension.md)
+There are many [other ways (this link outlines a few in more detail)](/jupyter-other-ways.md) you can use JupyterLab in Codespaces:
+1. Open the WR140_MIRI_Image.ipynb document by clicking on it in the file Explorer in VS Code for the Web.
 1. Run a Jupyter server manually in a Codespace by typing `jupyter lab` in the terminal, then CMD+Click one of the published URLs
 1. Select the `Open in...` option for the already running codespace listed on the https://github.com/codespaces page, and choose Jupyter
 1. Start a codespace from the Code dropdown menu in a GitHub Pull Request
